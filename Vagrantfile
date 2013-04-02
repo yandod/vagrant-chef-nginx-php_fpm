@@ -81,6 +81,7 @@ Vagrant::Config.run do |config|
   #   chef.validation_client_name = "ORGNAME-validator"
 
   config.vm.box = "ubuntu_11.04_server_amd64"
+  config.vm.box_url = "http://dl.dropbox.com/u/7490647/talifun-ubuntu-11.04-server-i386.box"
   config.vm.customize do |vm|
     vm.memory_size = 1024
   end
